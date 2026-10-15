@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goutam Dogri · Software Engineer</title>
+<meta name="description" content="Portfolio of Goutam Dogri, B.Tech CSBS student building mobile and web software.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="brand mono" href="#top">~/goutam</a>
+  <nav>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#learning">learning</a>
+    <a href="#soft">soft-skills</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <button id="theme" class="icon" aria-label="Toggle light and dark theme">◐</button>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero wrap">
+  <div class="hero-text">
+    <p class="status"><span class="dot"></span>Open to internships</p>
+    <h1>Goutam Dogri</h1>
+    <p class="lead">I build mobile and web software, and I'm learning how the systems underneath work: databases, compilers and machine learning.</p>
+    <p class="meta mono">B.Tech CSBS · NSEC, Kolkata</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="mailto:you@example.com">Email me</a>
+    </div>
+  </div>
+
+  <div class="term" aria-label="Terminal introduction">
+    <div class="term-head">
+      <i></i><i></i><i></i><span class="mono">zsh — goutam@dev</span>
+    </div>
+    <pre id="term-body" class="mono" data-lines='[
+      "$ whoami",
+      "goutam-dogri",
+      "$ cat focus.txt",
+      "react-native · typescript · node · postgres",
+      "$ git log --oneline -1",
+      "a1f9c3e ship things, then learn what broke",
+      "$ npm run learn"
+    ]'></pre>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="wrap">
+  <h2><span class="mono">skills</span><small>package.json</small></h2>
+  <div class="editor">
+    <div class="tabs mono"><span class="tab active">package.json</span></div>
+    <div class="skill-grid">
+      <div>
+        <h3 class="mono">"languages"</h3>
+        <ul class="chips"><li>TypeScript</li><li>JavaScript</li><li>SQL</li><li>Java</li><li>Python</li></ul>
+      </div>
+      <div>
+        <h3 class="mono">"frontend &amp; mobile"</h3>
+        <ul class="chips"><li>React Native (CLI)</li><li>React</li><li>NativeWind</li><li>HTML / CSS</li><li>Chrome Extensions (MV3)</li></ul>
+      </div>
+      <div>
+        <h3 class="mono">"backend &amp; data"</h3>
+        <ul class="chips"><li>Node.js</li><li>PostgreSQL</li><li>REST APIs</li><li>Firebase</li><li>FCM</li></ul>
+      </div>
+      <div>
+        <h3 class="mono">"tooling"</h3>
+        <ul class="chips"><li>Git &amp; GitHub</li><li>VS Code</li><li>Android Studio</li><li>Obsidian</li><li>Ollama</li></ul>
+      </div>
+      <div>
+        <h3 class="mono">"cs-fundamentals"</h3>
+        <ul class="chips"><li>Data Structures</li><li>Algorithms (DAA)</li><li>Operating Systems</li><li>Compilers</li><li>Automata</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="wrap">
+  <h2><span class="mono">projects</span><small>pinned repositories</small></h2>
+  <div class="repos">
+    <article class="repo">
+      <h3><a href="https://github.com/your-username/roomiebill" target="_blank" rel="noopener">roomiebill</a><span class="badge">Live on Google Play</span></h3>
+      <p>Shared-living expense tracker that helps roommates split bills and see who owes what.</p>
+      <ul class="stack mono"><li><span class="lang ts"></span>TypeScript</li><li>React Native</li><li>Firebase</li></ul>
+    </article>
+    <article class="repo">
+      <h3><a href="https://github.com/your-username/grammarsense" target="_blank" rel="noopener">grammarsense</a><span class="badge">Chrome Extension</span></h3>
+      <p>Grammar checker that runs on a local Ollama model, so your text never leaves your machine.</p>
+      <ul class="stack mono"><li><span class="lang js"></span>JavaScript</li><li>Manifest V3</li><li>Ollama</li></ul>
+    </article>
+    <article class="repo">
+      <h3><a href="https://github.com/your-username/dsa-tracker" target="_blank" rel="noopener">dsa-progress-tracker</a><span class="badge">Backend</span></h3>
+      <p>Tracks DSA practice and schedules revisions with spaced repetition.</p>
+      <ul class="stack mono"><li><span class="lang node"></span>Node.js</li><li>PostgreSQL</li></ul>
+    </article>
+    <article class="repo">
+      <h3><a href="https://github.com/your-username/focus-rpg" target="_blank" rel="noopener">screen-time-analytics</a><span class="badge wip">In progress</span></h3>
+      <p>Desktop app that tracks screen time at the app and content level, then turns focus into RPG-style progress.</p>
+      <ul class="stack mono"><li><span class="lang ts"></span>Desktop</li><li>Analytics</li><li>Gamification</li></ul>
+    </article>
+  </div>
+</section>
+
+<!-- LEARNING -->
+<section id="learning" class="wrap">
+  <h2><span class="mono">learning</span><small>why and what's next</small></h2>
+  <div class="learn">
+    <div class="readme">
+      <div class="tabs mono"><span class="tab active">README.md</span></div>
+      <div class="readme-body">
+        <h3>Why I keep learning</h3>
+        <p>I want to build products people use, and eventually start my own company. Software engineering is the fastest way I know to do that.</p>
+        <blockquote>Solve a new problem, or solve a solved problem in a new way.</blockquote>
+        <p>I learn by building: pick a real problem, ship a small version, then read the docs and source until I know why it works.</p>
+      </div>
+    </div>
+    <div class="pipeline">
+      <div class="tabs mono"><span class="tab active">learning.yml</span></div>
+      <ul class="jobs">
+        <li><span class="job run"></span><div><b>Database internals</b><small>Building a small DB engine from scratch</small></div><span class="state mono">running</span></li>
+        <li><span class="job run"></span><div><b>PostgreSQL in depth</b><small>Indexes, query plans, transactions</small></div><span class="state mono">running</span></li>
+        <li><span class="job run"></span><div><b>AI / ML foundations</b><small>Starting from zero with applied use cases</small></div><span class="state mono">running</span></li>
+        <li><span class="job run"></span><div><b>Data structures &amp; algorithms</b><small>Daily practice with spaced revision</small></div><span class="state mono">running</span></li>
+        <li><span class="job queue"></span><div><b>System design</b><small>Scaling, caching, queues</small></div><span class="state mono">queued</span></li>
+        <li><span class="job queue"></span><div><b>CI/CD and testing</b><small>Automated tests and deploy pipelines</small></div><span class="state mono">queued</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SOFT SKILLS -->
+<section id="soft" class="wrap">
+  <h2><span class="mono">soft skills</span><small>git log</small></h2>
+  <ul class="log mono">
+    <li><span class="node"></span><code class="hash">3b7e1a0</code><span class="msg">feat: communicate clearly</span><span class="desc">Explain technical choices in plain words, in writing and in person.</span></li>
+    <li><span class="node"></span><code class="hash">9d2c4f8</code><span class="msg">feat: own the outcome</span><span class="desc">Take a project from idea to the Play Store, including the unglamorous parts.</span></li>
+    <li><span class="node"></span><code class="hash">c41a7b2</code><span class="msg">fix: learn from failure</span><span class="desc">Read the error, find the root cause, write it down, move on.</span></li>
+    <li><span class="node"></span><code class="hash">e08f5d6</code><span class="msg">feat: think like a founder</span><span class="desc">Weigh user needs and business value before picking a solution.</span></li>
+    <li><span class="node"></span><code class="hash">7a6b3c1</code><span class="msg">chore: collaborate well</span><span class="desc">Give and accept code review kindly, and keep teammates unblocked.</span></li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="wrap contact">
+  <h2><span class="mono">contact</span><small>let's build something</small></h2>
+  <p class="lead">I'm looking for internships and projects where I can ship real software. The quickest way to reach me is email.</p>
+  <div class="cta">
+    <button id="copy" class="btn primary mono" data-email="you@example.com">you@example.com</button>
+    <a class="btn" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot mono">
+  <span>© <span id="year"></span> Goutam Dogri</span>
+  <span>Built with HTML, CSS and JS. Hosted on GitHub Pages.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
